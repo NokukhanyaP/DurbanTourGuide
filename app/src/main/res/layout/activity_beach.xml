@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nokukhanya.durbantourguide.Beach">
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/beachName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USHAKA MARINE WORLD BEACH"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/beach_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ushaka_beach"/>
+
+        <TextView
+            android:id="@+id/beachDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#1E90FF"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/AboutBeach1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uShaka Beach is gearing up for spring and summer with a variety of beach activities to make even the free zones at the park an experience to remember.
+Ocean Ventures brings fun to the ocean! We offer kayak tours, kayak lessons, kayak hire, surf lessons, kids birthday parties and SUP hire!
+For more information contact Ocean Ventures on
+ 031 332 9949.
+"
+            android:textAlignment="center"
+            android:textColor="#FF69B4"
+            android:paddingBottom="16dp"/>
+
+        <View
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="17dp"/>
+
+        <TextView
+            android:id="@+id/beachName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DURBAN SOUTH BEACH"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"
+            android:paddingBottom="18dp"/>
+
+        <ImageView
+            android:id="@+id/beach_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/durban_south_beach" />
+
+        <TextView
+            android:id="@+id/beachDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#1E90FF"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/AboutBeach2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durban’s North Beach is extremely popular during the festive season and December school holidays. Thousands of tourists and holiday-makers flock to the beach to get into the water. The warm water offers ..."
+            android:textColor="#FF69B4"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/beachName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DURNAN NORTH BEACH"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/beach_image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/durban_north_beach"/>
+
+        <TextView
+            android:id="@+id/beachDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#1E90FF"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/AboutBeach3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF69B4"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/beachName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTI BEACH"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0097A7"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/beach_image4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toto_beach"/>
+
+    <TextView
+        android:id="@+id/beachDescription4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#1E90FF"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/AboutBeach4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amanzimtoti Beach borders the warm Indian Ocean which makes the water ideal for all year round swimming, snorkelling, diving, surfing and family beach fun.
+This sandy beach in Amanzimtoti has permant life guards on duty (all year round) and there is adequate parking and plenty of restaurants and bars to visit after a day of sand and sun.
+Holiday beach activites for kids are offered during the high-holiday season and Splash Water World, which is situated on the beach, will provide hours of entertainment for kids, leaving you free to relax and work on your tan!
+From June to August the popular annual 'Sardine Run' takes place. The area becomes alive with excitement as many begin scooping up these little fish as they explore the beach or admire the amazing bird life that dip and dive after the catch. Quite a spectacle - don't miss it if you are in the area at this time of year!
+"
+        android:textColor="#FF69B4"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+
+

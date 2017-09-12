@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nokukhanya.durbantourguide.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~~~"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DURBAN"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The warmest place to be..."
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blue_ocean"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the sunny seaside city of Durban. Our city has loads of exciting activities and places of interest to visit; browse through our portal and find out more"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/btnBeach"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/btnBeach"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_beach_access_black_24dp"
+        android:background="#FF69B4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnHotels"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_hotel_black_24dp"
+        android:background="#FF69B4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+    <Button
+        android:id="@+id/btnRestuarents"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_restaurant_black_24dp"
+        android:background="#FF69B4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/btnMalls"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/ic_store_mall_directory_black_24dp"
+        android:background="#FF69B4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"/>
+
+
+</RelativeLayout>

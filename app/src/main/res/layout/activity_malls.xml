@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nokukhanya.durbantourguide.Malls">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mallName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Lucia Mall"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"/>
+
+        <ImageView
+            android:id="@+id/mall_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lalucia_mall"/>
+
+        <TextView
+            android:id="@+id/mallDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textColor="#1E90FF"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/AboutMall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La Lucia Mall is an exclusive shopping destination situated on the beautiful East Coast of KwaZulu-Natal. Offering a wide range of over 130 international, national and local retail, restaurants and service related businesses under one roof, the mall is conveniently located in the heart of La Lucia.
+La Lucia Mall was one of the very first shopping centres built in KwaZulu Natal and opened it’s doors for trading in 1974 with Pick 'n Pay supermarket as it's anchor tenant. Pick 'n Pay, Woolworths, Edgars, Dischem and Foodlovers Market now anchor this small Regional Mall. Some of the international brands include Accessorize, The Body Shop, Crabtree  Evelyn, Havaianas, Le Creuset, L'occitane en Provence, Pandora and Sunglass Hut.
+ " android:textAlignment="center"
+            android:textColor="#0097A7"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TextView
+            android:id="@+id/mallName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAVILION MALL"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"/>
+
+        <ImageView
+            android:id="@+id/mall_image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/parvilion_mall"/>
+
+        <TextView
+            android:id="@+id/mallDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textColor="#1E90FF"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/AboutMall2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Pavilion is an iconic Super Regional Shopping Centre that is located along the warm shoreline of sunny Durban, set within the rich cultural landscape of KwaZulu-Natal.
+The centre was launched in October 1993 and is the oldest first generation shopping mall in KwaZulu-Natal.
+ The Pavilion offers a multitude of activities to suit the most discerning shoppers who choose to shop at 255 national and international retail outlets, or choose to satisfy their craving at one of 40 restaurants and food outlets. The exceptional jewellery outlets make shopping for gifts a treat, while the 11 Nu Metro theatres with 1 4DX theatre, Fun Company, recently refurbished Food Court and brand new Virgin Active keeps shopper captivated for hours"
+            android:textAlignment="center"
+            android:textColor="#0097A7"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TextView
+            android:id="@+id/mallName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GATEWAY MALL"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"/>
+
+        <ImageView
+            android:id="@+id/mall_image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gateway_mall"/>
+
+        <TextView
+            android:id="@+id/mallDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#1E90FF"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/AboutMall3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gateway Theatre of Shopping is the ultimate fashion, entertainment and dining destination in Durban. With over 390+ stores, 70 eateries and a host of exciting entertainment, visitors are spoilt for choice! At Gateway you will find local South African retail, popular international brands such as Zara, Forever New, Cotton On, Superdry, Gant, and everything in between.
+"
+            android:textAlignment="center"
+            android:textColor="#0097A7"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TextView
+            android:id="@+id/mallName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GALLERIA MALL"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textColor="#0097A7"/>
+
+        <ImageView
+            android:id="@+id/mall_image4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/galleriamall"/>
+
+        <TextView
+            android:id="@+id/mallDescription4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textColor="#1E90FF"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/AboutMall4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galleria Mall is Durban’s biggest new mall, now open on the South Coast. Spanning 87 000sqm of pure retail splendour, Galleria has been touted as the biggest attraction to put Amanzimtoti and surrounds back on the map since the shoreline itself.
+Situated on the sapphire coastline of Amanzimtoti, Galleria Mall is a regional shopping centre deluxe. With combination of retail giants as well as exclusive boutiques, plus entertainment, fashion, dining and more, Galleria Mall offers the retail therapy that everybody deserves. Along with its exciting entertainment mix and a varied retail component, the centre boasts 87 000sqm of retail space, 5700 secure parking bays, and a contemporary, easy-to navigate layout."
+            android:textAlignment="center"
+            android:textColor="#0097A7"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

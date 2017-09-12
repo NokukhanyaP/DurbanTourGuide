@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nokukhanya.durbantourguide.Accomodation">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DURBAN BEVERLY HILLS HOTEL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0097A7"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:src="@drawable/durban_beverly_hills_hotel"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="Desctiption"
+        android:textAlignment="center"
+        android:textColor="#1E90FF"
+        android:textSize="17sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textVie1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeps 224 people in 112 rooms
+Durban beverly hills hotel offers superb luxury and affordable accommodation with breath taking seaviews. The Lodge offers ...
+Good [6 verified reviews]
+Airport Transfers
+Child Friendly
+Aircon
+Free Parking
+Swimming Pool
+Free WiFi "
+        android:textAlignment="center"
+        android:textColor="#FF69B4"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+    android:id="@+id/textV2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="OYSTER BOX HOTEL"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:fontFamily="cursive"
+    android:textColor="#0097A7"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/oyster_box_hotel"
+        android:layout_weight="0.37" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="Desctiption"
+        android:textAlignment="center"
+        android:textColor="#1E90FF"
+        android:textSize="17sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeps 126 people in 59 rooms
+The 5 star Oyster Box Hotel is beautifully positioned on the ocean’s edge in the beach resort of Umhlanga ...
+Excellent [2 verified reviews]
+Airport Transfers
+Child Friendly
+Aircon
+Swimming Pool
+Wheelchair Access
+Free WiFi "
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FF69B4"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CITY LODGE DURBAN HOTEL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0097A7"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/city_lodge_durban_hotel"
+        android:layout_weight="0.37"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="Desctiption"
+        android:textAlignment="center"
+        android:textColor="#1E90FF"
+        android:textSize="17sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textVie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeps 34 people in 15 rooms
+City Lodge offers superb luxury and affordable accommodation with breath taking seaviews. The Lodge offers ...
+Good [6 verified reviews]
+Airport Transfers
+Child Friendly
+Aircon
+Free Parking
+Swimming Pool
+Free WiFi "
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FF69B4"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/textV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROTEA HOTEL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0097A7"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/protea_hotel"
+        android:layout_weight="0.37" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="Desctiption"
+        android:textAlignment="center"
+        android:textColor="#1E90FF"
+        android:textSize="17sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textVie4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeps 10 people in 5 rooms
+Tamarisk is situated in upper Glenwood. It has the tranquility of a home-away-from home setting while still ...
+Child Friendly
+Aircon
+Free Parking
+Swimming Pool
+Free WiFi "
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#FF69B4"
+        android:textAlignment="center"/>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
